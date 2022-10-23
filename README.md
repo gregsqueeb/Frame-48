@@ -7,10 +7,13 @@ I suggest printing the case using a 0.4 mm nozzle, supports are not needed.
 
 The brass inserts can be fixed in the bottom case by heating them and applying pressure with a soldering iron set to about 200-220C.
 
+I created this iteration of the VOID Ergo S because I wanted my keyboard to have arrow keys as I use them a lot in my work as a product designer. I also wanted to build a keyboard that utilized [WorkLouder](https://worklouder.cc/) keycaps because I am a huge fan of their design and product. To be able to use their keycaps I needed to use choc style low profile switches which I couldn't get to work with the original Void Ergo S.
+
 
 # Bill of Materials
 
 * 46 diodes (tme.eu [link](https://www.tme.eu/ro/en/details/1n4148-dio/tht-universal-diodes/diotec-semiconductor/1n4148/)/aliexpress [link](https://www.aliexpress.com/item/32729204179.html))
+* Keycaps. This build was designed with [Work Louder Keycaps](https://worklouder.cc/shop/wrk-legend/) in mind.
 * 44/46 choc switches [link](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=6337)
 * 24 AWG (0.2 mm2) wire
 * 2 × [Adafruit KB2040](https://www.adafruit.com/product/5302)
@@ -48,4 +51,4 @@ The brass inserts can be fixed in the bottom case by heating them and applying p
 I have included the raw [QMK files](</QMK Files>) to compile the firmware in addition to the [copiled firmware](</Compiled Firmware>) for the keyboard to make it easier for people who don't want to compile their own firmware.
 
 # [VIA Configurator Layout](https://usevia.app/)
-I have created a VIA Configurator design for the board as well so it is easier to see what you are editing. You can upload the JSON file in [this folder](</VIA Files>) in the [Design tab](https://usevia.app/#/design) of VIA Configurator
+I have created a VIA Configurator design for the board as well so it is easier to see what you are editing. You can upload the JSON file in [this folder](</VIA Files>) to the [Design tab](https://usevia.app/#/design) of VIA Configurator
