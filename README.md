@@ -47,5 +47,5 @@ The brass inserts can be fixed in the bottom case by heating them and applying p
 # QMK Files
 I have included the raw [QMK files](</QMK Files>) to compile the firmware in addition to the [copiled firmware](</Compiled Firmware>) for the keyboard to make it easier for people who don't want to compile their own firmware.
 
-#[VIA COnfigurator Layout](https://usevia.app/)
+# [VIA Configurator Layout](https://usevia.app/)
 I have created a VIA Configurator design for the board as well so it is easier to see what you are editing. You can upload the JSON file in [this folder](</VIA Files>) in the [Design tab](https://usevia.app/#/design) of VIA Configurator
