@@ -52,3 +52,10 @@ I have included the raw [QMK files](</QMK Files>) to compile the firmware in add
 
 # [VIA Configurator Layout](https://usevia.app/)
 I have created a VIA Configurator design for the board as well so it is easier to see what you are editing. You can upload the JSON file in [this folder](</VIA Files>) to the [Design tab](https://usevia.app/#/design) of VIA Configurator
+
+# 💖 Inspiration and Thanks 💖
+Huge shout out to [Victor Luchachi](https://victorlucachi.ro/) who makes absolutely beautiful products and renders. The design language of this build is based off of his Void Ergo S keyboard and his VOID 16 build was my very first keyboard build.
+
+Thank you so much to [Joe Scotto](https://www.youtube.com/joescotto) for his awesome videos on handwiring keyboards. His pictures on reddit inspired me to use copper wiring on my build which ended up making the wiring process much easier and looks much much cleaner.
+
+A massive fanboy shoutout to [WorkLouder](https://worklouder.cc/) for creating an absolutely beautiful and high quality product. The design of your keyboards and keycaps are amazing!
