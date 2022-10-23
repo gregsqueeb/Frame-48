@@ -1,2 +1,51 @@
 # Void Ergo 65
- This is a handwired keyboard build inspired by the Void Ergo S!
+ A handwired keyboard build inspired by the Void Ergo S! Runs QMK firmware and fully customizable with VIA configurator.
+
+The VOID Ergo 65 is a 3d printed, handwired, split keyboard that was inspired by the [VOID ergo S](https://github.com/victorlucachi/void_ergo), running QMK Firmware on [Adafruit KB2040](https://www.adafruit.com/product/5302) controllers. Connection between the two halves of the keyboard is made with an aux cable via serial.
+
+I suggest printing the case using a 0.4 mm nozzle, supports are not needed.
+
+The brass inserts can be fixed in the bottom case by heating them and applying pressure with a soldering iron set to about 200-220C.
+
+
+# Bill of Materials
+
+* 46 diodes (tme.eu [link](https://www.tme.eu/ro/en/details/1n4148-dio/tht-universal-diodes/diotec-semiconductor/1n4148/)/aliexpress [link](https://www.aliexpress.com/item/32729204179.html))
+* 44/46 choc switches [link](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=6337)
+* 24 AWG (0.2 mm2) wire
+* 2 × [Adafruit KB2040](https://www.adafruit.com/product/5302)
+* 1 × [Copper Wire](https://www.amazon.com/dp/B00XHD03EA) for switch connections
+* 2 × EC11 Rotary Encoder (optional/aliexpress [link](https://www.aliexpress.com/item/32872039030.html) mounted to the plate using [this adapter](https://www.thingiverse.com/thing:3770166))
+* 10 × M2×12 allen head screws (aliexpress [link](https://www.aliexpress.com/item/32966941844.html), 14mm overall length, 4mm diameter head)
+* 10 × M2 brass inserts (aliexpress [link](https://www.aliexpress.com/item/4000585933306.html), 3.5mm outer diameter)
+* 2 × PJ320A 3.5mm female audio connectors (aliexpress [link](https://www.aliexpress.com/item/32368285821.html))
+* hot glue for securing the KB2040 to the bottom case (optional, but recommended), the audio connectors, and the switches.
+
+
+
+# Pin assignment
+
+    ROW0    ROW1    ROW2    ROW3
+    D10     MOSI    MISO    SCK
+    
+    
+    COL0    COL1    COL2    COL3    COL4    COL5    COL6
+    D9      D8      D7      D6      D5      D4      D3
+
+
+    Encoder Pad A           Encoder Pad B
+    DO                      D1
+
+
+    Serial Pin
+    A3
+
+*Matrix layout*
+![Alt text](/Images/MatrixLayout.png?raw=true)
+
+
+# QMK Files
+I have included the raw [QMK files](</QMK Files>) to compile the firmware in addition to the [copiled firmware](</Compiled Firmware>) for the keyboard to make it easier for people who don't want to compile their own firmware.
+
+#[VIA COnfigurator Layout](https://usevia.app/)
+I have created a VIA Configurator design for the board as well so it is easier to see what you are editing. You can upload the JSON file in [this folder](</VIA Files>) in the [Design tab](https://usevia.app/#/design) of VIA Configurator
