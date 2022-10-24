@@ -28,6 +28,8 @@ I created this iteration of the VOID Ergo S because I wanted my keyboard to have
 
 # Pin assignment
 
+![Alt text](/Images/Pinout.png?raw=true)
+
     ROW0    ROW1    ROW2    ROW3
     D10     MOSI    MISO    SCK
     
@@ -42,6 +44,8 @@ I created this iteration of the VOID Ergo S because I wanted my keyboard to have
 
     Serial Pin
     A3
+
+
 
 *Matrix layout*
 ![Alt text](/Images/MatrixLayout.png?raw=true)
