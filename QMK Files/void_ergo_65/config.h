@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* key matrix size */
 #define MATRIX_ROWS 8
-#define MATRIX_COLS 14
+#define MATRIX_COLS 7
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW

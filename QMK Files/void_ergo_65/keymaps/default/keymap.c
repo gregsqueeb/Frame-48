@@ -85,9 +85,9 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
         }
     } else if (index == 1) { /* Second encoder */
         if (clockwise) {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 0, 7));
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 4, 0));
         } else {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 3, 7));
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 7, 0));
         }
     }
     return true;

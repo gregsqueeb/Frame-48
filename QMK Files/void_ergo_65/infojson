@@ -2,13 +2,11 @@
     "keyboard_name": "VOID ERGO 65",
     "url": "",
     "maintainer": "Greg Mathews",
-    "width": 14,
+    "width": 7,
     "height": 8,
     "layouts": {
         "LAYOUT": {
-            "layout": [
-
-            ]
+            "layout": []
         }
     }
 }
