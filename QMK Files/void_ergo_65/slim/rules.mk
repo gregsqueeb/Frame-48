@@ -10,3 +10,4 @@ MCU = atmega32u4
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
 BOOTLOADER = caterina
+ENCODER_MAP_ENABLE = yes

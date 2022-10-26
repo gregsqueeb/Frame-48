@@ -53,3 +53,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define USE_SERIAL
 #define SOFT_SERIAL_PIN F4 // or D1, D2, D3, E6
 #define SELECT_SOFT_SERIAL_SPEED 0
+#define MASTER_LEFT

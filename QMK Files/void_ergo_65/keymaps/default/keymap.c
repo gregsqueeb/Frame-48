@@ -72,26 +72,41 @@ layer_state_t layer_state_set_user(layer_state_t state) {
  * ROTARY ENCODER
  */
 
-bool encoder_update_kb(uint8_t index, bool clockwise) {
-    return encoder_update_user(index, clockwise);
-}
 
-bool encoder_update_user(uint8_t index, bool clockwise) {
-    if (index == 0) { /* First encoder */
-        if (clockwise) {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 0, 6));
-        } else {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 3, 6));
-        }
-    } else if (index == 1) { /* Second encoder */
-        if (clockwise) {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 4, 0));
-        } else {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 7, 0));
-        }
-    }
-    return true;
-}
+
+#if defined(ENCODER_MAP_ENABLE)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
+    [_QWERTY] =   { ENCODER_CCW_CW(KC_MINUS, KC_EQUAL), ENCODER_CCW_CW(KC_MINUS, KC_EQUAL)  },
+    [_LOWER] =  { ENCODER_CCW_CW(KC_MINUS, KC_EQUAL), ENCODER_CCW_CW(KC_MINUS, KC_EQUAL)  },
+    [_RAISE] =  { ENCODER_CCW_CW(KC_MINUS, KC_EQUAL), ENCODER_CCW_CW(KC_MINUS, KC_EQUAL)  },
+    [_ADJUST] = { ENCODER_CCW_CW(KC_MINUS, KC_EQUAL), ENCODER_CCW_CW(KC_MINUS, KC_EQUAL)  },
+};
+#endif
+
+
+
+// bool encoder_update_kb(uint8_t index, bool clockwise) {
+//     return encoder_update_user(index, clockwise);
+// }
+
+// bool encoder_update_user(uint8_t index, bool clockwise) {
+//     if (index == 0) { /* First encoder */
+//         if (clockwise) {
+//             tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 0, 6));
+//         } else {
+//             tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 3, 6));
+//         }
+//     } else if (index == 1) { /* Second encoder */
+//         if (clockwise) {
+//             // tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 4, 0));
+//             tap_code(KC_VOLU);
+//         } else {
+//             // tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 7, 0));
+//             tap_code(KC_VOLU);
+//         }
+//     }
+//     return true;
+// }
 
 void matrix_init_user(void) {
 

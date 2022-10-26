@@ -19,6 +19,7 @@ HD44780_ENABLE = no         # Enable support for HD44780 based LCDs
 SPLIT_KEYBOARD = yes		# Split keeb
 ENCODER_ENABLE = yes		# Enable encoders
 OLED_DRIVER_ENABLE = no
+ENCODER_MAP_ENABLE = yes
 
 # Enable VIA by default
 VIA_ENABLE = yes
