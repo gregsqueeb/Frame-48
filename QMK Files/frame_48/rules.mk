@@ -25,4 +25,4 @@ ENCODER_MAP_ENABLE = yes
 VIA_ENABLE = yes
 LT0_ENABLE = yes
 
-DEFAULT_FOLDER = handwired/void_ergo_65/slim
+DEFAULT_FOLDER = handwired/frame_48/slim

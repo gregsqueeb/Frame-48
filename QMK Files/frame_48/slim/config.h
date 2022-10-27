@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
-#define PRODUCT VOID ERGO 65
+#define PRODUCT Frame 48
 
 /*
  * Keyboard Matrix Assignments
