@@ -1,5 +1,5 @@
 # Frame 48
- A handwired keyboard build inspired by the Void Ergo S! Runs QMK firmware and fully customizable with VIA configurator.
+ A handwired keyboard build created to use the [WorkLouder](https://worklouder.cc/) keycaps and inspired by the Void Ergo S! Runs QMK firmware and fully customizable with VIA configurator.
 
 The Frame 48 is a 3d printed, handwired, split keyboard that was inspired by the [VOID ergo S](https://github.com/victorlucachi/void_ergo), running QMK Firmware on [Adafruit KB2040](https://www.adafruit.com/product/5302) controllers. Connection between the two halves of the keyboard is made with an aux cable via serial.
 
