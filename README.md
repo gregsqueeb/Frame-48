@@ -9,6 +9,8 @@ The brass inserts can be fixed in the bottom case by heating them and applying p
 
 I created this iteration of the VOID Ergo S because I wanted my keyboard to have arrow keys as I use them a lot in my work as a product designer. I also wanted to build a keyboard that utilized [WorkLouder](https://worklouder.cc/) keycaps because I am a huge fan of their design and product. To be able to use their keycaps I needed to use choc style low profile switches which I couldn't get to work with the original Void Ergo S.
 
+[Build Guide](/STL%20Files/Readme.md)
+
 
 # Bill of Materials
 
