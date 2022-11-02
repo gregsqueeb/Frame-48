@@ -1,4 +1,4 @@
-![Side Shot](/Images/SideShot.png?raw=true)
+![Side Shot](/Images/Sideshot.png?raw=true)
 # Frame 48
  A handwired keyboard build created to use the [WorkLouder](https://worklouder.cc/) keycaps and inspired by the Void Ergo S! Runs QMK firmware and fully customizable with VIA configurator.
 
