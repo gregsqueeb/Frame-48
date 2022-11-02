@@ -52,6 +52,7 @@ I created this iteration of the VOID Ergo S because I wanted my keyboard to have
 
 *Matrix layout*
 ![Matrix Layout](/Images/MatrixLayout.png?raw=true)
+![Matrix Layout](/Images/TopDown.png?raw=true)
 
 
 # QMK Files
