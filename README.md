@@ -1,3 +1,4 @@
+![Side Shot](/Images/SideShot.png?raw=true)
 # Frame 48
  A handwired keyboard build created to use the [WorkLouder](https://worklouder.cc/) keycaps and inspired by the Void Ergo S! Runs QMK firmware and fully customizable with VIA configurator.
 
@@ -50,7 +51,7 @@ I created this iteration of the VOID Ergo S because I wanted my keyboard to have
 
 
 *Matrix layout*
-![Alt text](/Images/MatrixLayout.png?raw=true)
+![Matrix Layout](/Images/MatrixLayout.png?raw=true)
 
 
 # QMK Files
