@@ -14,9 +14,9 @@ I created this iteration of the VOID Ergo S because I wanted my keyboard to have
 
 # Bill of Materials
 
-* 56 diodes (tme.eu [link](https://www.tme.eu/ro/en/details/1n4148-dio/tht-universal-diodes/diotec-semiconductor/1n4148/)/aliexpress [link](https://www.aliexpress.com/item/32729204179.html))
+* 52 diodes (tme.eu [link](https://www.tme.eu/ro/en/details/1n4148-dio/tht-universal-diodes/diotec-semiconductor/1n4148/)/aliexpress [link](https://www.aliexpress.com/item/32729204179.html))
 * [Work Louder Keycaps](https://worklouder.cc/shop/wrk-legend/). This build was designed with these keycaps in mind.
-* 54/56 choc switches [link](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=6337)
+* 52/54 choc switches [link](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=6337)
 * 24 AWG (0.2 mm2) wire
 * 2 × [Adafruit KB2040](https://www.adafruit.com/product/5302)
 * 1 × [Copper Wire](https://www.amazon.com/dp/B00XHD03EA) for switch connections
